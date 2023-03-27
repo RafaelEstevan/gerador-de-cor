@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 4em;
+  }
+
+  .cor-rgb {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+
+  .button-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .gerar-btn{
+  width: 300px;
+  height: 60px;
+	background: #313332;
+	color: white;
+	border: 0 none;
+	border-radius: 8px;
+	cursor: pointer;
+	padding: 10px;
+	margin: 10px 5px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  }
+
+  .gerar-btn:hover, #hex-button:hover {
+    box-shadow: 0 0 0 2px white;
+  }
+
+  .hex-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .cor-hex {
+    margin-right: 10px;
+    font-size: 2.6em;
+  }
+
+  .copiar-btn {
+    border: 0 none;
+    background: none;
+    font-size: 2.5em;
+  }
+
+  .cores{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .cor{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #eeeeee;
+    border: 2px solid #111111;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 768px) {
+    h1{
+      font-size: 2.5em;
+    }
+    .cor-rgb{
+      font-size: 1.6em;
+    }
+    .cor-hex{
+      font-size: 1.6em;
+    }
+    .copiar-btn{
+      font-size: 1.8em;
+    }
+  }
